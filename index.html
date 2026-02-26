@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Impressions Smart Wear | Masculine Formal Attire</title>
+    <meta name="description" content="Impressions Smart Wear - Tailored suits and formal attire for the modern man. Sharp, confident, and authoritative.">
+    <meta name="keywords" content="mens wear, suits, formal attire, impressions, fashion, masculine">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Impressions Smart Wear">
+    <meta property="og:description" content="Tailored suits and formal attire for the modern man.">
+
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Impressions Smart Wear">
+    <meta name="twitter:description" content="Tailored suits and formal attire for the modern man.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --brand-black: #111111;
+            --brand-white: #ffffff;
+            --brand-gray: #f3f4f6;
+            --brand-gray-dark: #333333;
+        }
+    }
+
+    @layer base {
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--brand-black);
+            background-color: var(--brand-white);
+            -webkit-font-smoothing: antialiased;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }
+        /* Custom scrollbar for webkit */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #fff;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #ccc;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #111;
+        }
+    }
+
+    @layer components {
+        .btn-sharp {
+            @apply border border-[var(--brand-black)] bg-transparent text-[var(--brand-black)] px-8 py-3 uppercase tracking-widest text-sm font-semibold transition-all duration-300 hover:bg-[var(--brand-black)] hover:text-white rounded-none;
+        }
+        .container-wide {
+            @apply max-w-[1440px] mx-auto px-6 md:px-12;
+        }
+    }
+
+    @layer utilities {
+        .text-balance {
+            text-wrap: balance;
+        }
+    }
+    </style>
+
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/MobileMenu.js"></script>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/ProductCard.js"></script>
+    <script type="text/babel" src="components/ProductGrid.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="components/StickyMobileNav.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
