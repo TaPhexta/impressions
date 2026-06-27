@@ -1,4 +1,4 @@
-# impressions
+# Impressions
 
 This project started as an exploration into capturing and visualizing user interactions on a web application. The goal was to build a system that tracks how users engage with content, providing meaningful insights into user behavior and preferences. Built with modern web technologies, impressions delivers real-time tracking and analytics capabilities.
 
