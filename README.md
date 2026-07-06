@@ -13,10 +13,10 @@ The goal was to create a lightweight, efficient web-based application that seaml
 
 ## 🛠 Features
 
-- Interactive User Interface: A responsive web application designed to engage users while seamlessly collecting interaction data.
+- Interactive User Interface: A responsive web application designed to engage users whilst seamlessly collecting interaction data.
 - Event Tracking: Captures detailed information about user interactions including timestamps, click events, and engagement duration.
 - Session Management: Tracks user sessions to correlate impressions with specific user journeys.
-- Performance Optimized: Lightweight implementation ensures minimal impact on application load times and user experience.
+- Performance Optimised: Lightweight implementation ensures minimal impact on application load times and user experience.
 
 ## 💻 Tech Stack
 
